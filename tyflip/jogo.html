@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo de Plataforma</title>
+    <link rel="icon" type="image/x-icon" href="./assets/8025coin.ico">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    
+    <img id="player-image" class="player-image" src="assets/boneco.png" style="display: none;">
+    <img id="obstacle-image" class="obstacle-image" src="./assets/obs.png" alt="Obstacle" style="display: none;">
+    <img id="coin-image" class="coin-image" src="./assets/coin.png" alt="Coin" style="display: none;">
+
+    
+    <canvas id="canvas"></canvas>
+
+    <div id="game-over">
+        <button id="restart-button">Restart</button>
+    </div>
+
+    <div class="controls">
+        <div id="jump-button" class="control-button">Pular</div>
+    </div>
+
+   <script src="./js/script.js"></script>
+</body>
+</html>
